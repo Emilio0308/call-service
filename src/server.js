@@ -26,6 +26,10 @@ const users = [];
 io.on("connection", (socket) => {
   console.log("user connected to the socket", socket.id);
 
+  socket.on('disconnect', () => {
+    console.log('usuario desconectado');
+  });
+
   socket.on("room", (room) => {
     io.emit("room", room);
   });
