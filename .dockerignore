@@ -1,0 +1,7 @@
+# Archivos locales
+.env
+.git
+.idea
+.vscode
+*.log
+*.cache
