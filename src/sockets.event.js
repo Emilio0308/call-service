@@ -34,7 +34,7 @@ exports.socketsEvents = (io) => {
       const rooms = socket.rooms;
       const arrayRooms = Array.from(rooms);
       arrayRooms.forEach(async (room) => {
-        console.log("me falta id del usuario ptmr");
+        console.log("desconectado al usuario");
       });
     });
 
